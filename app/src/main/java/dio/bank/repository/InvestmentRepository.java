@@ -83,6 +83,11 @@ public class InvestmentRepository {
         return this.investments;
     }
 
+    public void updateAmount() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'updateAmount'");
+    }
+
     
 }
 
