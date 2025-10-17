@@ -54,7 +54,7 @@ public class InvestmentRepository {
         return wallet;
     }
 
-    public void updateAmount(final long percent){
+    public void updateAmount(final int percent){
         wallets.forEach(w -> w.updateAmount(percent));
     }
 

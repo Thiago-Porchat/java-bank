@@ -42,7 +42,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "java.bank.App"
+    mainClass = "dio.bank.Main"
 }
 
 tasks.named<Test>("test") {
